@@ -5,3 +5,8 @@ var typed = new Typed(".text", {
     backDelay: 1000,
     loop:true
 });
+
+function hamMenu() {
+    let menu = document.getElementById("navLinks");
+    menu.classList.toggle("active");
+}

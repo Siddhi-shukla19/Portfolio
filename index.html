@@ -9,16 +9,21 @@
     <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
-        <nav class="navbar">
+   <header class="header">
+       <nav class="navBar">
+          <a href="#" class="logo">Portfolio</a>
+          <div class="navbar" id="navLinks">
             <a href="#home" style="--i:1" class="active">Home</a>
             <a href="#about" style="--i:2">About</a>
             <a href="#skills-box" style="--i:4">Skills</a>
             <a href="#project" style="--i:5">Projects</a>
             <a href="#contact" style="--i:6">Contact</a>
-        </nav>
-    </header>
+          </div>
+       <div class="hamburger" onclick="hamMenu()">
+           ☰
+       </div>
+      </nav>
+   </header>
     <section class="home" id="home">
         <div class="home-content">
             <p style="color: rgb(171, 110, 241);">I'M</p>
