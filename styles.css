@@ -9,6 +9,8 @@
 body{
     background-color:#000;
     color: #eee5f1;
+    margin: 0;
+    padding: 0;
 }
 
 /* ================= HEADER ================= */
@@ -594,17 +596,6 @@ button{
     0 0 100px cyan, 0 0 200px cyan
 }
 
-/* ================= FOOTER ================= */
-
-.last{
-    width: 100%;
-    text-align: center;
-    background-color: #da7390;
-    font-weight: 700;
-    margin-top: 5rem;
-    padding: 20px;
-}
-
 /* ================= RESPONSIVE ================= */
 
 @media (max-width: 992px){
@@ -612,6 +603,11 @@ button{
     .home{
         flex-direction: column;
         text-align: center;
+        justify-content: center;
+        padding-left: 130px;
+    }
+    #new{
+        padding-left: 20px;
     }
 
     .about{
@@ -623,9 +619,13 @@ button{
         flex-direction: column;
         gap: 60px;
         align-items: center;
+        padding-left :20px;
     }
-
+    .main-text{
+        padding-left: 90px;
+    }
     .contact{
+        padding-left: 70px;
         grid-template-columns: 1fr;
     }
 }
